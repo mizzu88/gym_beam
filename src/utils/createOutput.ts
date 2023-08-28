@@ -1,3 +1,4 @@
+import fs from 'fs';
 interface Position {
   x: number;
   y: number;
@@ -47,5 +48,13 @@ export function createOutput(
   });
 
   return { pickingOrder, distance };
+}
+export function createFolder(folderName: string): void {
+  try {
+    fs.mkdirSync(folderName);
+    console.log(`Folder '${folderName}' created successfully.`);
+  } catch (error) {
+    console.error(`Error creating folder: ${error}`);
+  }
 }
 

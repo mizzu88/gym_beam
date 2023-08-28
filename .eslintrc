@@ -18,6 +18,5 @@
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "always"],
     "no-trailing-spaces": "error"
-    // Add more rules as needed
   }
 }

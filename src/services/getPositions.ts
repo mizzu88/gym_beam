@@ -12,7 +12,7 @@ interface Position {
 
 }
 
-export async function getUsers(users: string[]): Promise<Position[]> {
+export async function getProducts(users: string[]): Promise<Position[]> {
   try {
     const responseArray = await Promise.all(
       users.map(async (user) => {
@@ -28,8 +28,6 @@ export async function getUsers(users: string[]): Promise<Position[]> {
     );
 
     const result: Position[] = responseArray.flat();
-
-    console.log('result is: ', JSON.stringify(result, null, 4));
 
     return result;
   } catch (error) {
