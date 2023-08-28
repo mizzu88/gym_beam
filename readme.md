@@ -31,6 +31,7 @@ List any software or tools that need to be installed before setting up the proje
 ## Usage
 
 For exeuting of this server run command `npx ts-node src/index.ts` from root directory.
+After thsi command is endpoint `http://localhost:3000/calculatPickingOrders` accessible.
 
 ## API Documentation
 
