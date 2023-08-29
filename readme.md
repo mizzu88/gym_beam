@@ -35,4 +35,4 @@ After thsi command is endpoint `http://localhost:3000/calculatPickingOrders` acc
 
 ## API Documentation
 
-For API documentation you can access the Swagger UI endpoint: `http://localhost:3000/api-docs`. There you can find standard input object and response objects. You can also try execute this endpoint with button  `Try it out` than you can define request body and call endpoint with button `Execute`.
+For API documentation you can access the Swagger UI endpoint: `http://localhost:3000/api-docs`. There you can find standard input object and response objects. You can also try execute this endpoint with button  `Try it out` then you can define request body and call endpoint with button `Execute`.
